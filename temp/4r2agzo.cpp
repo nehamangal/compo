@@ -1,7 +1,5 @@
 #include<stdio.h>
-
 int main(){
-
-printf("njdsd");
-return 0;
+  printf("hiii");
+  return 0;
 }
