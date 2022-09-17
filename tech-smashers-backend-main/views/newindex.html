@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>Online IDE</title>
+  <link rel="stylesheet" href="../assests/style.css">
+</head>
+
+<body id="particles-js">
+ 
+  <div style="position: relative !important; height: 100vh;">
+ 
+    <div style="position: absolute !important; margin-left: 15rem;">
+
+      <center>
+        <h1 class="onid">Online IDE</h1>
+        <form id="myform" name="myform" method="post" action="compilecode">
+          <h3 style="font-size: 2.5rem;">Code</h3>
+          <textarea rows="13" cols="100" id="code" name="code" style="border:10px solid #c2f6b5;"></textarea>
+          <br><br><br>
+          <h3 style="font-size: 2.5rem;">Input</h3>
+          <textarea rows="10" cols="100" id="input" name="input" style="border:10px solid #c2f6b5;"></textarea>
+          <br /><br>
+          <br>
+          <br>
+      </center>
+  
+      <div style="margin-left: 15rem; ">
+        <h2 style="margin-right: 15rem; font-size: 2.5rem; ">Language : </h2>
+  
+        <select name="lang" style="font-size: 1.5rem;">
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="Java">Java</option>
+          <option value="Python">Python</option>
+        </select>
+  
+        <h3 style="font-size: 2rem;">Compile With Input :</h3>
+        <input type="radio" name="inputRadio" id="inputRadio" value="true" />Yes
+        <input type="radio" name="inputRadio" id="inputRadio" value="false" />No
+        <br />
+        <input type="submit" value="submit" name="submit" />
+      </div>
+  
+  
+      </form>
+    </div>
+  </div>
+
+  <script src="/node_modules/particles.js/particles.js">
+  </script>
+  <script src="/node_modules/particles.js/demo/js/app.js">
+  </script>
+</body>
+
+</html>
